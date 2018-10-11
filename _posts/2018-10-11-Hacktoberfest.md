@@ -1,0 +1,1 @@
+As part of Hacktober fest we have opened up the site to allow anyone to help us on our endevours to provide a coherent logging experience in our products. Feel free to raise issues and if you're feeling brave raise a PR. ;)
