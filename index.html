@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=6158f3105d5a5fc7e7707720e7f413c3a6c20b7c">
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      <h1>Hello and welcome to dev logs!<br>Or at least where they will be soon(tm)</h1>
-      <p>
-        Eventually we'll get around to moving each post off of our Discord server and on to here instead.<br>
-        We'll be moving to a more blog style format which should make it much easier to read than scrolling back through Discord!<br>
-        So watch this space!<br>
-      </p>
+---
+layout: default
+title: A guide to your digital life
+---
+<div class="listing">
+    {% for post in paginator.posts %}
+    <div class="post other link">
+      <h2></span> <a href="{{site.url}}{{post.url}}">{{ post.title }}</a></h2>
+      <p class="post-date">{{ post.date | date_to_string }}</p>
+      {{ post.excerpt }}
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-    
-  </body>
-</html>
+    {% endfor %}
+</div>
