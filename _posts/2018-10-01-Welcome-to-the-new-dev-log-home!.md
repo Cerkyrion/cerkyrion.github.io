@@ -1,0 +1,2 @@
+# Welcome to the dev logs! 
+(Mostly) weekly! That should only change if we've got issues outside of the game and don't get time to write them. This is more common than we'd like, but unfortunately happens when Will and I (Sam) have gone to university recently.
