@@ -1,3 +1,4 @@
+// A dirty company!
 var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{site.google_analytics}}']);
   _gaq.push(['_trackPageview']);
